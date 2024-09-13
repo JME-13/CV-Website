@@ -7,17 +7,7 @@
 <p class="CV-text">Développeur web passionnée par la création d'application. Polyvalente, je maîtrise les différentes étapes de la création d’une application web, de la compréhension des besoins utilisateurs au développement, front-end et back-end.</p>
 <br><br>
 <div class="highlight-box">
-  <p>Proactive
-  <br>
-  Organisée
-  <br>
-  Responsable
-  <br>
-  Creative
-  <br>
-  Travail en équipe
-  <br>
-  Autonome</p>
+  <p>Proactive<br>Organisée<br>Responsable<br>Creative<br>Travail en équipe<br>Autonome</p>
 </div>
 </div>
 <div class="content-container-competences">
