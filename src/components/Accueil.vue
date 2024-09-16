@@ -79,18 +79,22 @@ span {
 }
 
 .setting-icons {
-  margin-left: 70%;
+  margin-left: 62%;
   margin-top: -2%;
 }
 
 .Moi {
   width: 60%;
   margin-left: 57%;
-  margin-top: 85%;
+  margin-top: 120%;
 }
 
 .Welcome {
-  font-size: 42px;
+  font-size: 35px;
+}
+
+.career-text {
+  font-size: 25px;
 }
 }
 </style>
