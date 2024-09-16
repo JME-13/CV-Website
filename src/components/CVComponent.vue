@@ -11,7 +11,7 @@
 </div>
 </div>
 <div class="content-container-extra">
-  <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+  <section class="top-container"><img class="setting-icons-langues" src="../assets/images/settingIcons.png"></section>
 <p class="CV-title">Langues</p>
 <br>
 <div class="highlight-box-langues">Français - C1<br>
@@ -20,7 +20,7 @@ Espagnol - Langue Maternelle</div>
 <br>
 </div>
 <div class="content-container-competences">
-  <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+  <section class="top-container"><img class="setting-icons-comp" src="../assets/images/settingIcons.png"></section>
 <p class="CV-title">Competences</p>
 <div class="CV-img-container">
   <img class="CV-img" src="../assets/images/HTML.png">
@@ -34,7 +34,7 @@ Espagnol - Langue Maternelle</div>
 </div>
 </div>
 <div class="content-container-formation">
-  <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+  <section class="top-container"><img class="setting-icons-form" src="../assets/images/settingIcons.png"></section>
 <p class="CV-title">Formation</p>
 <p class="CV-text">
   <span>Titre professionnel Développeur Web et Web Mobile</span><br>
@@ -51,7 +51,7 @@ Espagnol - Langue Maternelle</div>
 </p>
 </div>
 <div class="content-container-experience">
-  <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+  <section class="top-container"><img class="setting-icons-exp" src="../assets/images/settingIcons.png"></section>
     <p class="CV-title">Experience Professionnelle</p>
     <p class="CV-text">
       <span>> Demi-Chef de Partie Pâtisserie</span><br>
@@ -97,74 +97,92 @@ methods: {
   
   <style scoped>
 
+  main {
+    margin-top: 15%;
+  }
+
   .top-container {
     background-color: #7668ae;
   }
 
   .content-container-propos {
-  background-color: white;
-  border-radius: 20px;
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-  box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
-  color:black;
-  padding-bottom: 10px;
-  width: 15%;
+    display: inline-block;
+    margin-top: -180px;
+    margin-left: 4%; 
+    margin-bottom: 35px;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
+    color:black;
+    padding-bottom: 10px;
 }
 
 .content-container-formation {
-  background-color: white;
-  border-radius: 20px;
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-  box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
-  color:black;
-  padding-bottom: 10px;
-  width: 22%;
-  z-index: 1;
+    margin-bottom: 35px;
+    margin-top: -350px;
+    margin-left: 65%;
+    width: 22%;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
+    color:black;
+    padding-bottom: 10px;
 }
 
 .content-container-experience {
-  background-color: white;
-  border-radius: 20px;
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-  box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
-  color:black;
-  padding-bottom: 10px;
-  width: 50%;
+    margin-top: 20px;
+    margin-left: 37%; 
+    margin-bottom: 35px;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
+    color:black;
+    padding-bottom: 10px;
 }
 
 .content-container-competences {
-  background-color: white;
-  border-radius: 20px;
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-  box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
-  color:black;
-  padding-bottom: 10px;
-  width: 25%;
+    margin-top: -875px;
+    margin-left: 37%; 
+    margin-bottom: 35px;
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
+    color:black;
+    padding-bottom: 10px;
 }
 
 .content-container-extra {
-  background-color: white;
-  border-radius: 20px;
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-  box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
-  color:black;
-  padding-bottom: 10px;
-  width: 15%;
+    margin-bottom: 35px;
+    margin-left: 14%; 
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 20px 20px 2px 1px rgba(0, 0, 255, .2);
+    color:black;
+    padding-bottom: 10px;
 }
 
 .Moi-2 {
   width: 180px;
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: -15px;
   margin-bottom: 10px;
 }
@@ -217,14 +235,106 @@ span {
   margin: 5px;
 }
 
-.setting-icons, .setting-icons-top {
+.setting-icons-langues {
+  width: 30%;
+  margin-left: 65%;
+  margin-top: 2%;
+}
+
+.setting-icons-comp {
+  width: 25%;
+  margin-left: 72%;
+  margin-top: 2%;
+}
+
+.setting-icons-top {
+  width: 30%;
+  margin-left: 65%;
+  margin-top: 2%;
+}
+
+.setting-icons-form {
+  width: 28%;
+  margin-left: 70%;
+  margin-top: 2%;
+}
+
+.setting-icons-exp {
+  width: 13%;
+  margin-left: 85%;
+  margin-top: 1%;
+}
+
+@media screen and (max-width: 1550px){
+
+main {
+  margin-top: 15%;
+}
+
+.content-container-propos {
+    display: inline-block;
+    margin-top: -180px;
+    margin-left: 4%; 
+    margin-bottom: 35px;
+    width: 20%;
+}
+
+.setting-icons {
+  width: 30%;
+  margin-left: 65%;
+  margin-top: 2%;
+}
+
+
+.setting-icons-top {
+  width: 35%;
   margin-left: 60%;
+  margin-top: 2%;
+}
+
+.setting-icons-form {
+  width: 35%;
+  margin-left: 62%;
+}
+
+.setting-icons-exp {
+  width: 15%;
+  margin-left: 83%;
+  margin-top: 1%;
+}
+
+.content-container-competences {
+    margin-top: -895px;
+    margin-left: 38%; 
+    margin-bottom: 35px;
+    width: 25%;
+}
+
+.content-container-extra {
+    margin-bottom: 35px;
+    margin-left: 15%; 
+    width: 20%;
+}
+ 
+.content-container-formation {
+    margin-bottom: 35px;
+    margin-top: -350px;
+    margin-left: 65%;
+    width: 22%;
+}
+
+.content-container-experience {
+    margin-top: 20px;
+    margin-left: 38%; 
+    margin-bottom: 35px;
+    width: 50%;
+}
 }
 
 @media screen and (max-width: 428px) {
 
-  main {
-    margin-top: 50%;
+main {
+    margin-top: 45%;
 }
 
 .setting-icons-top {
@@ -236,20 +346,53 @@ span {
 .setting-icons {
   margin-left: 64%;
 }
-
-nav {
-    margin-top: -50px;
-    }
-
-.nav-right {
-    margin-top: 15px;
-    }
   
-  .content-container-propos, .content-container-formation, .content-container-experience, .content-container-competences, .content-container-extra {
+  .content-container-propos {
+    display: block;
     margin-left: auto;
     margin-right:auto;
     margin-bottom: 35px;
+    margin-top: 10%;
     width: 80%;
+  }
+
+  .content-container-extra {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 35px;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.content-container-competences {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 35px;
+    margin-top: 5%;
+    width: 80%;
+}
+
+  .content-container-formation {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 35px;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.content-container-experience {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 35px;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.Moi-2 {
+  width: 180px;
+  margin-left: 75px;
+  margin-top: -15px;
+  margin-bottom: 10px;
 }
 
 }

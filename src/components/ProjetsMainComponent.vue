@@ -41,8 +41,12 @@ export default {
     
     <style scoped>
 
-main {
+    main {
       margin-top: 15%;
+    }
+
+    .list {
+      margin-top: 20%;
     }
 
     .top-container {
@@ -50,15 +54,14 @@ main {
     }
 
     .content-container {
-    width: 70%;
-    margin-top: -50px;
+        width: 70%;
     }
 
     .projects-buttons {
         width: 80%;
         margin-top: 50px;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; 
     }
     
     .projects-images {
@@ -84,7 +87,7 @@ main {
     @media screen and (max-width: 428px) {
 
     main {
-        margin-top: 60%;
+        margin-top: 50%;
     }
 
     .content-container {
@@ -92,8 +95,8 @@ main {
     }
 
     .setting-icons {
-      margin-left: 64%;
-      margin-top: -1%;
+      margin-left: 67%;
+      margin-top: 0%;
   }
 
 }

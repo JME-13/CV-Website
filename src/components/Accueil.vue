@@ -26,9 +26,9 @@ main {
 
 .Moi {
   position: absolute;
-  margin-top: 6%;
-  margin-left: 55%;
-  width: 20%;
+  margin-top: 15%;
+  margin-left: 58%;
+  width: 8%;
 }
 
 .Welcome {
@@ -60,15 +60,15 @@ span {
   font-weight: bold;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1550px){
   .Moi {
-  width: 23%;
-  margin-left: 50%;
+  width: 8%;
+  margin-left: 58%;
   margin-top: 18%;
 }
 
 .setting-icons {
-  margin-left: 83%;
+  margin-left: 85%;
 }
 
 }
@@ -79,14 +79,14 @@ span {
 }
 
 .setting-icons {
-  margin-left: 62%;
-  margin-top: -2%;
+  margin-left: 65%;
+  margin-top: 0%;
 }
 
 .Moi {
   width: 25%;
   margin-left: 70%;
-  margin-top: 125%;
+  margin-top: 105%;
 }
 
 .Welcome {

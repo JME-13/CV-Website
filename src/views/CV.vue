@@ -18,15 +18,3 @@ export default {
         }
     };
 </script>
-
-<style scoped>
-nav {
-        margin-top: -49px;
-        }
-
-    .nav-right {
-        margin-top: 16px;
-        margin-right: 42px;
-        }
-
-</style>

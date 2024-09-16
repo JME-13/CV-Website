@@ -54,18 +54,20 @@ export default {
     
 <style scoped>
 
-nav {
-        margin-top: 213px;
-        }
-
-.nav-right {
-        margin-top: 278px;
-        margin-right: 33px;
-        }
+main {
+  margin-top: 15%;
+}
 
 .content-container {
-    margin-top: -180px;
+  display: inline-block;
+  margin-top: -170px;
+  margin-left: 15%;
     }
+
+.setting-icons {
+margin-left: 85%;
+margin-top: 1%;
+}
 
 .top-container {
         background-color: #a76cad;
@@ -74,9 +76,8 @@ nav {
 .get-in-touch {
   max-width: 800px;
   margin: 50px auto;
-  position: relative;
-
 }
+
 .get-in-touch .title {
   font-family: Big Pixel;
   text-align: center;
@@ -158,12 +159,13 @@ nav {
 
 .content-container {
   width: 90%;
-  margin-top: 20%;
+  margin-top: 0%;
+  margin-left: 5%;
 }
 
 .setting-icons {
-margin-left: 64%;
-margin-top: 1%;
+margin-left: 70%;
+margin-top: 2%;
 }
 
 .get-in-touch .title {
@@ -172,8 +174,8 @@ margin-top: 1%;
   padding-bottom: 48px;
 }
 
-.contact-form .submit-btn {
-  margin-left: 20%;
+.get-in-touch .submit-btn {
+  margin-left: 25%;
 }
 
 }

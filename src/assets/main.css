@@ -22,18 +22,6 @@ body {
   background-size: 45px 45px;
 }
 
-nav {
-  float: left;
-  margin-top: -50px;
-  margin-left: 50px;
-}
-
-.nav-right {
-  float: right;
-  margin-top: 15px;
-  margin-right: 50px;
-}
-
 nav ul {
   text-align: center;
 }
@@ -53,10 +41,6 @@ nav ul {
 
 ul {
   list-style-type: none;
-}
-
-main {
-  margin-top: 15%;
 }
 
 .top-container {
@@ -90,7 +74,7 @@ main {
 }
 
 @media screen and (max-width: 428px) {
-  
+
   .content-container {
     width: 80%;
   }

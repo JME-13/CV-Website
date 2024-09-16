@@ -24,13 +24,18 @@
       text-decoration: none;
     }
 
+    .nav-right {
+      float: right;
+      margin-right: 50px;
+    }
+
     @media screen and (max-width: 428px) {
 
     .list2 {
       display: flex;
       gap: 10px;
       margin-top: -95px;
-      margin-right: 25px;
+      margin-right: 40px;
     }
     
     .nav-right {

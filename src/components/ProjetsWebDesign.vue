@@ -133,6 +133,10 @@ export default {
     
     <style scoped>
 
+    main {
+        margin-top: 15%;
+    }
+
     nav {
         margin-top: 0px;
         }
@@ -201,6 +205,9 @@ export default {
 }
 
 .popover-content {
+    position: absolute;
+  top: 150px;
+  left: 25%;
   background: #fff;
   border-radius: 20px;
   border-color: #333;
@@ -240,6 +247,33 @@ export default {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 1550px){
+ 
+ .img__img {
+     height: 150px;
+     width: 300px;
+ }
+ 
+ .img__description {
+   width: 300px;
+   margin-top: 15px;
+   text-align: center;
+ }
+
+ .setting-icons-popover {
+   width: 15%;
+   margin-left: 80%;
+   margin-top: 1%;
+}
+
+.img-size {
+    width: 75%;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+}
+
 @media screen and (max-width: 428px) {
 
 main {
@@ -252,7 +286,7 @@ main {
 }
 
 .setting-icons {
-  margin-left: 64%;
+  margin-left: 68%;
   margin-top: -1%;
 }
 
@@ -265,18 +299,19 @@ nav {
     }
 
 .img__img {
-      height: 150px;
-      width: 285px;
+      height: 180px;
+      width: 325px;
   }
+
 
 .img__description {
     display: none;
   }
 
 .setting-icons-popover {
-    width: 32%;
-    margin-left: 64%;
-    margin-top: 3%;
+    width: 30%;
+    margin-left: 65%;
+    margin-top: 2%;
 }
 
  .popover-content {

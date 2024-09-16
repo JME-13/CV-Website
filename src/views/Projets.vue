@@ -17,5 +17,11 @@
               MenuRight,
           },
 };
+</script>
 
-  </script>
+<style scooped>
+
+
+
+
+</style>

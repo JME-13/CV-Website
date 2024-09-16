@@ -22,13 +22,19 @@
 </template>
 
 <style scoped>
+
+nav {
+  float: left;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
 @media screen and (max-width: 428px) {
 
 .list {
   display: flex;
   gap: 5px;
   margin-top: -105px;
-  margin-left: -20px;
 }
 
 .nav-icons {
