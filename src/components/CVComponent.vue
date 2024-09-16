@@ -1,7 +1,7 @@
 <template>
   <main>
   <div class="content-container-propos">
-    <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+    <section class="top-container"><img class="setting-icons-top" src="../assets/images/settingIcons.png"></section>
 <p class="CV-title">A Propos De Moi</p>
 <img class="Moi-2" src="../assets/images/Moi-2.png">
 <p class="CV-text">Développeur web passionnée par la création d'application. Polyvalente, je maîtrise les différentes étapes de la création d’une application web, de la compréhension des besoins utilisateurs au développement, front-end et back-end.</p>
@@ -9,6 +9,15 @@
 <div class="highlight-box">
   <p>Proactive<br>Organisée<br>Responsable<br>Creative<br>Travail en équipe<br>Autonome</p>
 </div>
+</div>
+<div class="content-container-extra">
+  <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+<p class="CV-title">Langues</p>
+<br>
+<div class="highlight-box-langues">Français - C1<br>
+Anglais - C2<br>
+Espagnol - Langue Maternelle</div>
+<br>
 </div>
 <div class="content-container-competences">
   <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
@@ -65,15 +74,7 @@ Maintenance de la boutique physique et en ligne. Réalisation d’affiches et fl
 Studio “DobleVia Comunicación Creativa”, València - Espagne / Fév. 2015 - Avril 2015<br>
 Mise en œuvre de campagnes publicitaires. Modification et création d'affiches, flyers et marques.</p>
 </div>
-<div class="content-container-extra">
-  <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
-<p class="CV-title">Langues</p>
-<br>
-<div class="highlight-box-langues">Français - C1<br>
-Anglais - C2<br>
-Espagnol - Langue Maternelle</div>
-<br>
-</div>
+
 </main>
   </template>
 
@@ -101,9 +102,6 @@ methods: {
   }
 
   .content-container-propos {
-  position: absolute;
-  top: 50px;
-  left: 300px;
   background-color: white;
   border-radius: 20px;
   border-color: black;
@@ -116,9 +114,6 @@ methods: {
 }
 
 .content-container-formation {
-  position: absolute;
-  left: 1150px;
-  top: 50px;
   background-color: white;
   border-radius: 20px;
   border-color: black;
@@ -132,9 +127,6 @@ methods: {
 }
 
 .content-container-experience {
-  position: absolute;
-  left: 650px;
-  top: 430px;
   background-color: white;
   border-radius: 20px;
   border-color: black;
@@ -147,9 +139,6 @@ methods: {
 }
 
 .content-container-competences {
-  position: absolute;
-  left: 650px;
-  top: 50px;
   background-color: white;
   border-radius: 20px;
   border-color: black;
@@ -162,9 +151,6 @@ methods: {
 }
 
 .content-container-extra {
-  position: absolute;
-  left: 300px;
-  top: 710px;
   background-color: white;
   border-radius: 20px;
   border-color: black;
@@ -231,8 +217,41 @@ span {
   margin: 5px;
 }
 
-.setting-icons {
+.setting-icons, .setting-icons-top {
   margin-left: 60%;
+}
+
+@media screen and (max-width: 428px) {
+
+  main {
+    margin-top: 50%;
+}
+
+.setting-icons-top {
+  width: 35%;
+  margin-left: 64%;
+  margin-top: -2%;
+}
+
+.setting-icons {
+  margin-left: 64%;
+}
+
+nav {
+    margin-top: -50px;
+    }
+
+.nav-right {
+    margin-top: 15px;
+    }
+  
+  .content-container-propos, .content-container-formation, .content-container-experience, .content-container-competences, .content-container-extra {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 35px;
+    width: 80%;
+}
+
 }
 
   </style>

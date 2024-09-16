@@ -34,7 +34,7 @@
     }
     
     .nav-right {
-      margin-top: -50%;
+      margin-top: 3%;
     }
 
     .nav-icons {

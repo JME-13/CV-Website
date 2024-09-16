@@ -54,6 +54,15 @@ export default {
     
 <style scoped>
 
+nav {
+        margin-top: 213px;
+        }
+
+.nav-right {
+        margin-top: 278px;
+        margin-right: 33px;
+        }
+
 .content-container {
     margin-top: -180px;
     }
@@ -133,4 +142,40 @@ export default {
   margin-left: 38%;
 }
 
-    </style>
+@media screen and (max-width: 428px) {
+
+main {
+  margin-top: 50%;
+}
+
+nav {
+    margin-top: -50px;
+    }
+
+.nav-right {
+    margin-top: 15px;
+    }
+
+.content-container {
+  width: 90%;
+  margin-top: 20%;
+}
+
+.setting-icons {
+margin-left: 64%;
+margin-top: 1%;
+}
+
+.get-in-touch .title {
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 48px;
+}
+
+.contact-form .submit-btn {
+  margin-left: 20%;
+}
+
+}
+
+</style>

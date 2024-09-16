@@ -6,14 +6,13 @@
       <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
             <div class="projects-box">
                 <div class="row row-cols-1 row-cols-md-3">
-                <div class="col">
-                    <img src="../assets/images/Cards/blank.png" class="img__img" alt="...">
+                    <div class="col">
                     <PopupWrapper>
                     <template #header>
-                        <div class="popover">
+                        <div class="popover2">
                             <div class="img__wrap">
                                     <img src="../assets/images/Cards/Bobsmade1.png" class="img__img" alt="...">
-                                        <div class="img__description_layer">
+                                    <div class="img__description_layer">
                                             <h5 class="img__description">Bobsmade V1</h5>
                                         </div>
                             </div>
@@ -21,7 +20,7 @@
                     </template>
                     <template #content>
                         <div class="popover-content">
-                            <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+                            <section class="top-container"><img class="setting-icons-popover" src="../assets/images/settingIcons.png"></section>
                             <p class="project-title">Bobsmade V1</p>
                             <p class="project-text">
                                 Projet réalisé en 2011. Sur Deviantart, les utilisateurs de Bobsmade ont organisé un concours de refonte de leur site internet, ouvert à tous. Il suffisait de réaliser la maquette, le gagnant se chargerait ensuite de la réaliser de manière dynamique. J'ai décidé de participer et c'était ma première participation.
@@ -34,13 +33,12 @@
                 </PopupWrapper>
                     </div>
                 <div class="col">
-                    <img src="../assets/images/Cards/blank.png" class="img__img" alt="...">
                     <PopupWrapper>
                     <template #header>
                         <div class="popover2">
                             <div class="img__wrap">
                                     <img src="../assets/images/Cards/Bobsmade2.png" class="img__img" alt="...">
-                                        <div class="img__description_layer">
+                                    <div class="img__description_layer">
                                             <h5 class="img__description">Bobsmade V2</h5>
                                         </div>
                             </div>
@@ -48,7 +46,7 @@
                     </template>
                     <template #content>
                         <div class="popover-content">
-                            <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+                            <section class="top-container"><img class="setting-icons-popover" src="../assets/images/settingIcons.png"></section>
                             <p class="project-title">Bobsmade V2</p>
                             <p class="project-text">
                                 Projet réalisé en 2011. Sur Deviantart, les utilisateurs de Bobsmade ont organisé un concours de refonte de leur site internet, ouvert à tous. Il suffisait de réaliser la maquette, le gagnant se chargerait ensuite de la réaliser de manière dynamique. J'ai décidé de participer et c'était ma deuxière participation.
@@ -61,13 +59,12 @@
                 </PopupWrapper>
                     </div>
                 <div class="col">
-                    <img src="../assets/images/Cards/blank.png" class="img__img" alt="...">
                     <PopupWrapper>
                     <template #header>
                         <div class="popover3">
                             <div class="img__wrap">
                                     <img src="../assets/images/Cards/CCC.png" class="img__img" alt="...">
-                                        <div class="img__description_layer">
+                                    <div class="img__description_layer">
                                             <h5 class="img__description">Central City Comics</h5>
                                         </div>
                             </div>
@@ -75,7 +72,7 @@
                     </template>
                     <template #content>
                         <div class="popover-content">
-                            <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
+                            <section class="top-container"><img class="setting-icons-popover" src="../assets/images/settingIcons.png"></section>
                            <p class="project-title">Central City Comics</p>
                             <p class="project-text">
                                 Ce site Web a été créé dans le cadre d'un projet dans le cours de design interactif en 2014. Il nous a été demandé de créer un site Web avec une boutique sur le thème que nous souhaitions. J'ai choisi de créer une boutique de BD car c'est un de mes hobbys. 
@@ -185,68 +182,25 @@ export default {
     }
 
     .img__img {
-        height: 200px;
-        width: 400px;
-    }
+      height: 200px;
+      width: 400px;
+  }
 
-    .img__description_layer {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: #ecb9419f;
-        color: #fff;
-        font-family: Big Pixel;
-        font-weight: bold;
-        visibility: hidden;
-        opacity: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: opacity .2s, visibility .2s;
-    }
+  .img__description {
+    margin-top: 15px;
+    text-align: center;
+  }
 
-    .img__wrap:hover .img__description_layer {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .img__description {
-        transition: .2s;
-        transform: translateY(1em);
-    }
-
-    .img__wrap:hover .img__description {
-        transform: translateY(0);
-    }
-
-    .popover {
-    position: absolute;
-    top: 330px;
-    left: 310px;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.popover2 {
-    position: absolute;
-    top: 330px;
-    left: 730px;
+.popover, .popover2, .popover3  {
     cursor: pointer;
 }
 
-.popover3 {
-    position: absolute;
-    top: 330px;
-    left: 1150px;
-    cursor: pointer;
+.setting-icons-popover {
+    margin-left: 64%;
+  margin-top: 5%;
 }
 
 .popover-content {
-  position: absolute;
-  top: 100px;
-  left: 25%;
   background: #fff;
   border-radius: 20px;
   border-color: #333;
@@ -254,7 +208,7 @@ export default {
   border-style: solid;
   margin-top: 4px;
   color: #333;
-  text-align: left;
+  text-align: center;
   width: 50%;
   z-index: 1;
 }
@@ -281,8 +235,58 @@ export default {
 }
 
 .img-size {
-    width: 90%;
+    width: 80%;
     margin: 5px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 428px) {
+
+main {
+    margin-top: 50%;
+}
+
+.content-container {
+  width: 85%;
+  margin-top: 20px;
+}
+
+.setting-icons {
+  margin-left: 64%;
+  margin-top: -1%;
+}
+
+nav {
+    margin-top: -50px;
+    }
+
+.nav-right {
+    margin-top: 15px;
+    }
+
+.img__img {
+      height: 150px;
+      width: 285px;
+  }
+
+.img__description {
+    display: none;
+  }
+
+.setting-icons-popover {
+    width: 32%;
+    margin-left: 64%;
+    margin-top: 3%;
+}
+
+ .popover-content {
+  position: absolute;
+  top: 250px;
+  left: 3%;
+  text-align: center;
+  width: 95%;
+  z-index: 1;
+}
+
 }
     </style>
