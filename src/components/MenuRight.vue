@@ -24,4 +24,27 @@
       text-decoration: none;
     }
 
+    @media screen and (max-width: 428px) {
+
+    .list2 {
+      display: flex;
+      gap: 10px;
+      margin-top: -95px;
+      margin-right: 25px;
+    }
+    
+    .nav-right {
+      margin-top: -50%;
+    }
+
+    .nav-icons {
+      width: 60px;
+      height: 60px;
+    }
+
+    .nav-text {
+      display: none;
+    }
+    
+  }
   </style>

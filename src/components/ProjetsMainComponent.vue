@@ -80,4 +80,21 @@ main {
     .rl {
         text-decoration: none;
     }
+
+    @media screen and (max-width: 428px) {
+
+    main {
+        margin-top: 60%;
+    }
+
+    .content-container {
+      width: 85%;
+    }
+
+    .setting-icons {
+      margin-left: 64%;
+      margin-top: -1%;
+  }
+
+}
     </style>

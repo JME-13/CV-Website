@@ -84,9 +84,9 @@ span {
 }
 
 .Moi {
-  width: 60%;
-  margin-left: 57%;
-  margin-top: 120%;
+  width: 25%;
+  margin-left: 70%;
+  margin-top: 125%;
 }
 
 .Welcome {
@@ -94,7 +94,7 @@ span {
 }
 
 .career-text {
-  font-size: 25px;
+  font-size: 22px;
 }
 }
 </style>

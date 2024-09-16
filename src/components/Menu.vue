@@ -20,3 +20,24 @@
   </ul>
 </nav>
 </template>
+
+<style scoped>
+@media screen and (max-width: 428px) {
+
+.list {
+  display: flex;
+  gap: 5px;
+  margin-top: -105px;
+  margin-left: -20px;
+}
+
+.nav-icons {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-text {
+  display: none;
+}
+}
+</style>

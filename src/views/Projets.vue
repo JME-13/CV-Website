@@ -19,13 +19,3 @@
 };
 
   </script>
-
-<style scoped>
-  nav {
-  margin-top: 0px;
-}
-
-.nav-right {
-  margin-top: 65px;
-}
-</style>

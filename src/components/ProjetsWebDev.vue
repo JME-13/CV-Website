@@ -6,63 +6,58 @@
     <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
           <div class="projects-box">
               <div class="row row-cols-1 row-cols-md-3">
-              <div class="col">
-                <img src="../assets/images/Cards/blank.png" class="img__img" alt="...">
-                <PopupWrapper>
-                    <template #header>
-                        <div class="popover">
-                            <div class="img__wrap">
-                                    <img src="../assets/images/Cards/MADB.png" class="img__img" alt="...">
-                                        <div class="img__description_layer">
-                                            <h5 class="img__description">My Atiny DataBase</h5>
-                                        </div>
-                            </div>
-                        </div>
-                    </template>
-                    <template #content>
-                        <div class="popover-content">
-                            <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
-                            This is a Popup Content</div>
-                    </template>
-                </PopupWrapper>
-                </div>
-              <div class="col">
-                <img src="../assets/images/Cards/blank.png" class="img__img" alt="...">
+                <div class="col">
                 <PopupWrapper>
                     <template #header>
                         <div class="popover2">
                             <div class="img__wrap">
-                                    <img src="../assets/images/Cards/CV.png" class="img__img" alt="...">
+                                    <img src="../assets/images/Cards/MADB.png" class="img__img" alt="My Atiny Database">
                                         <div class="img__description_layer">
-                                            <h5 class="img__description">CV Web</h5>
+                                            <h5 class="img__description">My Atiny Database</h5>
                                         </div>
                             </div>
                         </div>
                     </template>
                     <template #content>
                         <div class="popover-content">
-                            <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
-                            This is a Popup Content 2</div>
+                            <section class="top-container"><img class="setting-icons-popover" src="../assets/images/settingIcons.png"></section>
+                            Section à venir!</div>
                     </template>
                 </PopupWrapper>
                   </div>
               <div class="col">
-                <img src="../assets/images/Cards/blank.png" class="img__img" alt="...">
                 <PopupWrapper>
                     <template #header>
-                        <div class="popover3">
+                        <div class="popover2">
                             <div class="img__wrap">
-                                    <img src="../assets/images/Cards/AdG.png" class="img__img" alt="...">
+                                    <img src="../assets/images/Cards/CV.png" class="img__img" alt="JulianaMuir.com">
                                         <div class="img__description_layer">
-                                            <h5 class="img__description">L'Atelier des Dragons</h5>
+                                            <h5 class="img__description">JulianaMuir.com</h5>
                                         </div>
                             </div>
                         </div>
                     </template>
                     <template #content>
                         <div class="popover-content">
-                            <section class="top-container"><img class="setting-icons" src="../assets/images/settingIcons.png"></section>
-                            This is a Popup Content 3</div>
+                            <section class="top-container"><img class="setting-icons-popover" src="../assets/images/settingIcons.png"></section>
+                            Section à venir!</div>
+                    </template>
+                </PopupWrapper>
+                  </div>
+              <div class="col">
+                <PopupWrapper>
+                    <template #header>
+                        <div class="popover3">
+                            <div class="img__wrap">
+                                    <img src="../assets/images/Cards/AdG.png" class="img__img" alt="L'Atelier des Dragons">
+                                            <h5 class="img__description">L'Atelier des Dragons</h5>
+                            </div>
+                        </div>
+                    </template>
+                    <template #content>
+                        <div class="popover-content">
+                            <section class="top-container"><img class="setting-icons-popover" src="../assets/images/settingIcons.png"></section>
+                            Section à venir!</div>
                     </template>
                 </PopupWrapper>
                   </div>
@@ -155,58 +150,18 @@ methods: {
       width: 400px;
   }
 
-  .img__description_layer {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: #a66cadaf;
-      color: #fff;
-      font-family: Big Pixel;
-      font-weight: bold;
-      visibility: hidden;
-      opacity: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: opacity .2s, visibility .2s;
-  }
-
-  .img__wrap:hover .img__description_layer {
-      visibility: visible;
-      opacity: 1;
-  }
-
   .img__description {
-      transition: .2s;
-      transform: translateY(1em);
+    margin-top: 15px;
+    text-align: center;
   }
 
-  .img__wrap:hover .img__description {
-      transform: translateY(0);
-  }
-
-  .popover {
-    position: absolute;
-    top: 330px;
-    left: 310px;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.popover2 {
-    position: absolute;
-    top: 330px;
-    left: 730px;
+.popover, .popover2, .popover3  {
     cursor: pointer;
 }
 
-.popover3 {
-    position: absolute;
-    top: 330px;
-    left: 1150px;
-    cursor: pointer;
+.setting-icons-popover {
+    margin-left: 64%;
+  margin-top: 5%;
 }
 
 .popover-content {
@@ -220,10 +175,60 @@ methods: {
   border-style: solid;
   margin-top: 4px;
   color: #333;
-  text-align: left;
+  text-align: center;
   width: 50%;
   height: 500px;
   z-index: 1;
 }
 
+@media screen and (max-width: 428px) {
+
+main {
+    margin-top: 50%;
+}
+
+.content-container {
+  width: 85%;
+  margin-top: 20px;
+}
+
+.setting-icons {
+  margin-left: 64%;
+  margin-top: -1%;
+}
+
+nav {
+    margin-top: -50px;
+    }
+
+.nav-right {
+    margin-top: 15px;
+    }
+
+.img__img {
+      height: 150px;
+      width: 285px;
+  }
+
+.img__description {
+    display: none;
+  }
+
+.setting-icons-popover {
+    width: 32%;
+    margin-left: 64%;
+    margin-top: 3%;
+}
+
+ .popover-content {
+  position: absolute;
+  top: 250px;
+  left: 3%;
+  text-align: center;
+  width: 95%;
+  height: 80%;
+  z-index: 1;
+}
+
+}
   </style>
